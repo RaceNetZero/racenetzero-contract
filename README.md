@@ -35,11 +35,3 @@ truffle test
 ```sh
 npx truffle migrate
 ```
-
-2. Edit the "networks" field in the artifact JSON files. Eg. `build/contracts/DPos.json`.
-
-3. Copy the artifacts to the rnz-explorer directory:
-
-```sh
-cp build/contracts/CELRToken.json build/contracts/DPoS.json build/contracts/RNZ.json <path-to-rnz-explorer-repo>/src/contracts
-```
